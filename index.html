@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    
+   
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class=" maindiv ">
+       <div class="mainheading"> <h2 id="heading">Currency Converter</h2></div>
+    <form action="#">
+        <div class="enteramount">
+            <label  for="price" class="enteramount1">Enter Amount</label>
+            <input class="amount"
+                type="number"
+                id="price"
+                name="price"
+                step="0.01"
+                placeholder="e.g. 10.11"
+                />
+ 
+        </div>
+        <div class="countrywali">
+            <div class="fromcountry">
+            <label id="from">From</label>
+           <div class="countryhai" id="cn1">
+            <img class="image1"  src="https://flagsapi.com/US/flat/64.png"      />
+             
+             <Select class="select1" name="Country" > 
+                
+
+            </Select> </div> </div>
+            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - 
+                    https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path d="M32 96l320 0 0-64c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l96 96c6 6 .4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-96 96c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6l0-64L32 160c-17.7 0-32-14.3-32-32s14.3-32 32-32zM480 352c17.7 0 32 14.3 32 32s-14.3 32-32 32l-320 0 0 64c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-96-96c-6-6-9.4-14.1-9.4-22.6s3.4-16.6 9.4-22.6l96-96c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 64 320 0z"/></svg></div>
+            <div class="tocountry">
+                <label id="to">To</label>
+                <div class="countryhai" id="cn2">
+                    <img class="image2"  src="https://flagsapi.com/IN/flat/64.png"      />
+                    <Select class="select1" name="Country" >
+                       
+       
+       
+       
+                   </Select> </div></div>
+
+
+
+            
+
+
+
+        </div>
+        <div class="result"><p id="result1">Result ayga</p></div>
+        <div class="button"><button  id="button1">Get Exchange Rate</button></div></form>
+    </div>
+    <script src="code.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
