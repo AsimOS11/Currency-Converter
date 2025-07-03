@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+} 
+body{
+    background-color: rgb(102, 102, 255);
+}
+
+.maindiv{
+    background-color: rgb(241, 248, 253);
+    width: 253px;
+    height: 300px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    margin: auto;
+    margin-top: 17%;
+    border-radius: 6px;
+}   
+    
+.mainheading{
+   padding: 12px;
+} 
+#heading{
+    font-size: 22px;
+    font-weight: bold;
+}  
+.enteramount{
+   padding: 10px;
+   
+}
+.enteramount1{
+    font-size: small;
+}
+.amount{
+    border: 1px solid;
+    border-radius: 7px;
+    width: 70px;
+    background-color:rgb(102, 102, 255);
+    color: aliceblue;
+    border-color: rgb(40, 64, 85);
+    width: 230px;
+    padding-left: 8px;
+    height: 25px;
+    
+
+}
+.countrywali{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px;
+    
+}
+.fromcountry{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-top: 23px;
+
+}
+.tocountry{
+    display: flex;
+    flex-direction: column;
+    
+}
+#from{
+    font-size: small;
+}
+#to{
+    font-size: small;
+}
+#result1{
+    font-size: small;
+    width: 210px;
+    margin-left: 3px;;
+}
+.result{
+   justify-content: left; 
+    padding: 10px;
+    width: 230px;
+}
+.button{
+
+    
+    width: 230px;
+    border-radius: 8px;
+    height: 30px;
+    margin: 10px;
+    background-color: rgb(102, 102, 255);
+    border-color: rgb(102, 102, 255);
+    
+   
+ 
+ }
+#button1{
+    width: 230px;
+    font-size: small;
+    font-weight: bold;
+    height: 30px;
+    background-color: rgb(102, 102, 255);
+    color: aliceblue;
+    border-radius: 8px;
+    border-color: rgb(102, 102, 255);
+    
+}
+#button:hover{
+    background-color:rgb(102, 102, 210);
+}
+.select1{
+    border: 1px solid;
+    border-radius: 7px;
+    width: 70px;
+    background-color:rgb(102, 102, 255);
+    color: aliceblue;
+    border-color: rgb(40, 64, 85);
+}
+.select2{
+    border: 1px solid;
+    border-radius: 7px;
+    width: 70px;
+    background-color:rgb(102, 102, 255);
+    color: aliceblue;
+    border-color: rgb(40, 64, 85);
+}
+.countryhai{
+    display: flex;
+    
+
+
+}
+.image1{
+    width: 25px;
+    height: 25px;
+    
+    border-radius: 3px;
+
+    margin-right: 2px;
+    background-color:rgb(102, 102, 255) ;
+}
+.image2{
+    width: 25px;
+    height: 25px;
+    
+    border-radius: 3px;
+
+    margin-right: 2px;
+    background-color:rgb(102, 102, 255) ;
+}
+#cn1{
+    margin-right: 8px;
+}
+#cn2{
+    margin-left: 8px;
+}
+@media screen and (max-width: 260px) {
+    .maindiv  {
+      margin-top: 40%;
+    }
+  }
